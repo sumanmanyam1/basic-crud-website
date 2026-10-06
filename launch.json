@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Debug myhw.handler",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/myhw.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "python": "${workspaceFolder}/.venv/bin/python",
+      "justMyCode": false,
+      "env": {
+        "STAGE": "local",
+        "DB_NAME": "dynamodb",
+        "DB_ZONE": "ap-south-1",
+        "LAMBDA_EVENT_FILE": "${workspaceFolder}/.vscode/event.json"
+      }
+    }
+  ]
+}

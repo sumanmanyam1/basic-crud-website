@@ -1,0 +1,11 @@
+{
+    "ApiEndpoint": "https://ipwvwcseyf.execute-api.ap-south-1.amazonaws.com",
+    "ApiId": "ipwvwcseyf",
+    "ApiKeySelectionExpression": "$request.header.x-api-key",
+    "CreatedDate": "2026-09-24T19:52:39+00:00",
+    "DisableExecuteApiEndpoint": false,
+    "IpAddressType": "ipv4",
+    "Name": "crudwebsite-api",
+    "ProtocolType": "HTTP",
+    "RouteSelectionExpression": "$request.method $request.path"
+}

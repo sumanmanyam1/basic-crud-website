@@ -1,0 +1,8 @@
+{
+  "httpMethod": "DELETE",
+  "pathParameters": {
+    "id": "1"
+  },
+  "queryStringParameters": {},
+  "body": "{}"
+}
